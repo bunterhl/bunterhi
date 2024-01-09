@@ -1,0 +1,14 @@
+# Simple even/odd number program in Python
+
+# Function to check if a number is even or odd
+def even_odd(num):
+    if num % 2 == 0:
+        print(num, "is even")
+    else:
+        print(num, "is odd")
+
+# Input from user
+num = int(input("Enter a number: "))
+
+# Calling the even_odd function
+even_odd(num)
